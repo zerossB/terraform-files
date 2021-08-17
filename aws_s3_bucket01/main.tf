@@ -20,5 +20,6 @@ resource "aws_s3_bucket" "mu-test-bucket" {
   tags = {
     "Name"        = "My Bucket"
     "Environment" = "develop"
+    "ManagedBy"   = "Haynes"
   }
 }
